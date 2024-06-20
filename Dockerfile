@@ -1,11 +1,10 @@
-FROM ccr.ccs.tencentyun.com/storezhang/alpine:3.20.0
+FROM ccr.ccs.tencentyun.com/dockerat/alpine:3.20.0
 
 LABEL author="storezhang<华寅>" \
     email="storezhang@gmail.com" \
     qq="160290688" \
     wechat="storezhang" \
-    # TODO 增加描述信息
-    description="Drone持续集成Docker插件，增加以下功能：1、xxx；2、xxx"
+    description="聊天相关功能，比如：1、发送消息；2、上传文件等 "
 
 # 复制文件
 COPY from=builder /docker /
