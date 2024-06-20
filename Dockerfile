@@ -1,9 +1,4 @@
-FROM storezhang/alpine:3.20.0 AS builder
-
-COPY semgrep /docker/usr/local/bin
-
-
-FROM storezhang/alpine:3.20.0
+FROM ccr.ccs.tencentyun.com/storezhang/alpine:3.20.0
 
 LABEL author="storezhang<华寅>" \
     email="storezhang@gmail.com" \
