@@ -5,5 +5,5 @@ import (
 )
 
 type Uploader interface {
-	Upload(file *os.File) error
+	Upload(name string, file *os.File) error
 }
