@@ -2,10 +2,10 @@ module github.com/dronestock/chat
 
 go 1.22
 
-
 require (
 	github.com/dronestock/drone v1.2.5
-	github.com/larksuite/oapi-sdk-go/v3 v3.2.7
+	github.com/goexl/gox v0.5.2
+	github.com/larksuite/oapi-sdk-go/v3 v3.2.8
 )
 
 require (
@@ -21,7 +21,6 @@ require (
 	github.com/goexl/env v0.0.2 // indirect
 	github.com/goexl/exception v0.0.1 // indirect
 	github.com/goexl/gex v0.4.3 // indirect
-	github.com/goexl/gox v0.5.2 // indirect
 	github.com/goexl/guc v0.1.3 // indirect
 	github.com/goexl/http v0.1.9 // indirect
 	github.com/goexl/log v0.0.7 // indirect
