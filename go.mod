@@ -5,7 +5,7 @@ go 1.22
 require (
 	github.com/dronestock/drone v1.2.5
 	github.com/goexl/gox v0.5.2
-	github.com/larksuite/oapi-sdk-go/v3 v3.2.8
+	github.com/larksuite/oapi-sdk-go/v3 v3.2.9
 )
 
 require (
