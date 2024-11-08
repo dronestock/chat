@@ -5,7 +5,7 @@ toolchain go1.23.0
 
 require (
 	github.com/dronestock/drone v1.2.6
-	github.com/goexl/gox v1.8.9
+	github.com/goexl/gox v1.9.0
 	github.com/larksuite/oapi-sdk-go/v3 v3.3.7
 )
 
