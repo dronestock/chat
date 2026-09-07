@@ -1,12 +1,10 @@
 module github.com/dronestock/chat
 
-go 1.23
-
-toolchain go1.24.1
+go 1.27
 
 require (
 	github.com/dronestock/drone v1.2.6
-	github.com/goexl/gox v1.9.2
+	github.com/goexl/gox v1.9.3
 	github.com/larksuite/oapi-sdk-go/v3 v3.11.0
 )
 
